@@ -1,0 +1,43 @@
+.container {
+  background-color: var(--secondaryBlue);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.offline {
+  background-color: var(--secondaryWhite);
+}
+.offline .footer{
+  background-color: var(--mainGray);
+  color: var(--mainWhite)
+}
+.offline .title {
+  color: var(--mainGray);
+}
+
+.title {
+  font-size: 1rem;
+  font-weight:600;
+  line-height: 1.1rem;
+  padding: 12px;
+  color: var(--mainWhite);
+}
+.footer {
+  display: flex;
+  padding: 5px 12px;
+  background-color: var(--mainGreen);
+  font-size: .7rem;
+  font-weight: 500;
+  color: var(--mainWhite);
+}
+.containerIconNumber {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.containerIconNumber span {
+  margin-left: 2px;
+}

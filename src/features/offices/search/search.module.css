@@ -1,0 +1,35 @@
+.container {
+  background-color: var(--secondaryBlue);
+  padding: 7px 0px;
+  margin-bottom: 20px;
+}
+.containerSearch {
+  padding: 0px 30px;
+  max-width: var(--maxWidthSize);
+  margin: 0 auto;
+  position: relative;
+  color: var(--mainGray);
+}
+.containerSearch input {
+  box-sizing: border-box;
+  height: 25px;
+  border-radius: 4px;
+  width: 300px;
+  padding: 4px 10px;
+  padding-left: 30px;
+  border: none;
+  color: var(--mainBlue);
+  background-color: var(--mainWhite);
+}
+
+.containerSearch svg {
+  position: absolute;
+  top: 4px;
+  left: 35px;
+}
+
+@media screen and (max-width: 650px) {
+  .containerSearch input {
+    width: 100%;
+  }
+}

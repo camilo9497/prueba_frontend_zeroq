@@ -1,8 +1,14 @@
 .containerCards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 10px;
+  gap: 12px;
   max-width: var(--maxWidthSize) ;
   margin: 0 auto;
   padding: 0px 30px;
+}
+
+@media screen and (max-width: 360px) {
+  .containerCards {
+    grid-template-columns: 1fr;
+  }
 }
